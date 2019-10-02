@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0'
+gem 'rails' #'~> 5.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~>1.3.13'
 # Use SCSS for stylesheets
@@ -44,3 +44,7 @@ group :development, :test do
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
+
+gem "omniauth", "~> 1.9"
+
+gem "omniauth-github", "~> 1.3"
